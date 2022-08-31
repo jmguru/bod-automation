@@ -1,7 +1,7 @@
 ---
 # This playbook deploys a simple standalone Tomcat 7 server.
 
-- hosts: qotd-bastion 
+- hosts: 9.46.65.92
   user: root
   roles:
     - test
