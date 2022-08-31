@@ -1,4 +1,4 @@
 [qotd_bastion]
-9.46.65.92
+9.46.74.189
 [qotd_bastion:vars]
-ansible_user=root
+ansible_user=john

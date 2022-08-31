@@ -1,0 +1,13 @@
+---
+- name: slack_clean_up 
+  hosts: qotd_bastion
+  tasks:
+    - name: slack_clean -           🚀 Clean-up 
+      shell: |
+        /home/john/clean-slack.sh
+      register: output
+      ignore_errors: yes
+
+    - name: DEBUG -                 🟢  Status
+      debug:
+        var: output.stdout_lines
