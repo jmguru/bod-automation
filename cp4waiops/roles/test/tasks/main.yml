@@ -1,6 +1,6 @@
 - name: TEST -           🚀 Get Nodes
   shell: |
-    /usr/bin/kubectl get nodes
+    hostname 
   register: nodes
   ignore_errors: yes
 
