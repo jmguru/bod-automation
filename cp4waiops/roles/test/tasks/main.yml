@@ -1,6 +1,6 @@
 - name: TEST -           🚀 Get Nodes
   shell: |
-    kubectl get nodes
+    /usr/bin/kubectl get nodes
   register: nodes
   ignore_errors: yes
 
