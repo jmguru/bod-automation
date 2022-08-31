@@ -4,7 +4,7 @@
   tasks:
     - name: TEST -           🚀 Get Nodes
       shell: |
-        hostname
+        kubectl get nodes 
       register: nodes
       ignore_errors: yes
 
